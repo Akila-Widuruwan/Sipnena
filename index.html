@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sipnena | E Commerce website </title>
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo2.png" alt="" width="240px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" heigth="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Spend your free <br>time meaningfully</h1>
+                <p class="akila">Books are our best friends and the best way to know about the world. Reading <br>books helps us change our perspective of the world.</p>
+                <a href="" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+              <img src="images/woman-reading-book-isolated-transparent-background_879541-1283-removebg-preview.png">
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--- featured categories ---->
+
+<div class="categories">
+    <div class="small-container"><div class="row">
+        <div class="col-3">
+            <img src="images/c1.jpg" width="318px">
+        </div>
+        <div class="col-3">
+            <img src="images/c2.jpg" width="318px">
+        </div>
+        <div class="col-3">
+            <img src="images/c3.jpg" width="318px">
+        </div>
+    </div></div>
+</div>
+
+
+<!--- featured products ---->
+
+<div class="small-container">
+    <h2 class="title">Featured Categories</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/crime and punishment.jpg" width="230px">
+            <h4>Crime and Punishment by Fyodor Dostoevsky</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa-regular fa-star-half-stroke" style="color: #0c0f12;"></i>
+            </div>
+            <p>Lkr.1800.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/forget me or not.jpg" width="240px">
+            <h4>Forget me or not by Charitha Prawardhi Bandara</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>Lkr.1200.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/a dull story by anton chekhov.webp" width="240px">
+            <h4>Later Shot Stories by Anton Chekhov</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa-regular fa-star-half-stroke" style="color: #0c0f12;"></i>
+                <i class="fa-regular fa-star-half-stroke" style="color: #0c0f12;"></i>
+            </div>
+            <p>Lkr.1500.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/jane eyre.jpg" width="235px">
+            <h4>Jane by Charlotte<br> Bronte</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa-regular fa-star-half-stroke" style="color: #0c0f12;"></i>
+            </div>
+            <p>Lkr.1000.00</p>
+        </div>
+    </div>
+
+    <!-------Most populer books -->
+    <h2 class="title">Most Populer Books</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/famous-five.webp" width="230px">
+            <h4>Crime and Punishment by Fyodor Dostoevsky</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa-regular fa-star-half-stroke" style="color: #0c0f12;"></i>
+            </div>
+            <p>Lkr.1800.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/forget me or not.jpg" width="240px">
+            <h4>Forget me or not by Charitha Prawardhi Bandara</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>Lkr.1200.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/sherlock holmes.jpg" width="240px">
+            <h4>Later Shot Stories by Anton Chekhov</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa-regular fa-star-half-stroke" style="color: #0c0f12;"></i>
+                <i class="fa-regular fa-star-half-stroke" style="color: #0c0f12;"></i>
+            </div>
+            <p>Lkr.1500.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/sherlock holmes 2.jpg" width="235px">
+            <h4>Jane by Charlotte<br> Bronte</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa-regular fa-star-half-stroke" style="color: #0c0f12;"></i>
+            </div>
+            <p>Lkr.1000.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/malory towers.jpg" width="100%">
+            <h4>Crime and Punishment by Fyodor Dostoevsky</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa-regular fa-star-half-stroke" style="color: #0c0f12;"></i>
+            </div>
+            <p>Lkr.1800.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/a diary of a wimpy kid.jpg" width="240px">
+            <h4>Forget me or not by Charitha Prawardhi Bandara</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>Lkr.1200.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/the iliad.jpg" width="240px">
+            <h4>Later Shot Stories by Anton Chekhov</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa-regular fa-star-half-stroke" style="color: #0c0f12;"></i>
+                <i class="fa-regular fa-star-half-stroke" style="color: #0c0f12;"></i>
+            </div>
+            <p>Lkr.1500.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/jane eyre.jpg" width="235px">
+            <h4>Jane by Charlotte<br> Bronte</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa-regular fa-star-half-stroke" style="color: #0c0f12;"></i>
+            </div>
+            <p>Lkr.1000.00</p>
+        </div>
+    </div>
+</div>
+<!---- offer -->
+
+<div class="offer">
+    <div class="row">
+       <!--<div class="col-2"><img src="images/ban2.jpg" class="offer_img"></div>-->
+        <div class="col-2">
+            <p class="mn">Latest Offers for Books in Sri Lanka </p>
+            <h1>Sri Lanka Colombo Book Fair 2023</h1>
+            <small>Are you an avid reader constantly on the lookout for new literary treasures? Or are you just beginning your journey into the captivating world of books? Either way, mark your calendars because the කොළඹ ජාත්‍යන්තර පොත් ප්‍රදර්ශනය 2023 is coming to town! From the 22nd of September to the 1st of October 2023, at the prestigious BMICH (Bandaranaike Memorial International Conference Hall). The fair will be open from 9 a.m. to 9 p.m. each day, and the event will be haven for book enthusiasts, young and old alike. Organized by the Sri Lanka Publishers Association, this year’s book fair promises to celebrate literature, knowledge, and community.</small><br>
+            <a href="" class="btn">More Informations &#8594</a>
+        </div>
+    </div>
+</div>
+
+<!---- testimonial------>
+
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+               <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quaerat, molestias adipisci alias nesciunt doloribus dolor neque eligendi .</p>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa-regular fa-star-half-stroke" style="color: #0c0f12;"></i>
+                </div>
+                <image src="images/dammi.jpg"><h3>Mr.Dhammika Perera</h3></image>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quaerat, molestias adipisci alias nesciunt doloribus dolor neque eligendi .</p>
+                 <div class="rating">
+                     <i class="fa fa-star" aria-hidden="true"></i>
+                     <i class="fa fa-star" aria-hidden="true"></i>
+                     <i class="fa fa-star" aria-hidden="true"></i>
+                     <i class="fa fa-star" aria-hidden="true"></i>
+                     <i class="fa-regular fa-star-half-stroke" style="color: #0c0f12;"></i>
+                 </div>
+                 <image src="images/herath.jpeg"><h3>Mr.Herath Bandara</h3></image>
+             </div>
+             <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quaerat, molestias adipisci alias nesciunt doloribus dolor neque eligendi .</p>
+                 <div class="rating">
+                     <i class="fa fa-star" aria-hidden="true"></i>
+                     <i class="fa fa-star" aria-hidden="true"></i>
+                     <i class="fa fa-star" aria-hidden="true"></i>
+                     <i class="fa fa-star" aria-hidden="true"></i>
+                     <i class="fa-regular fa-star-half-stroke" style="color: #0c0f12;"></i>
+                 </div>
+                 <image src="images/randika.jpeg"><h3>Mr.Randhika Wijesinghe</h3></image>
+             </div>
+        </div>
+    </div>
+</div>
+
+<!----- brands-------------->
+
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/Sarasavi_Cover-1-scaled-1024x677-removebg-preview.png">
+            </div>
+            <div class="col-5">
+                <img src="images/samudra-removebg-preview.png">
+            </div>
+            <div class="col-5">
+                <img src="images/grantha-logo-250-removebg-preview.png">
+            </div>
+            <div class="col-5">
+                <img src="images/NLSLLOGO2023-removebg-preview.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----  page foote -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Downlod Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo2.png">
+                <p>I am pleased to say that Sipnena has  of indie shops already and we are very excited to join the party! </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affialate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instargram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2020 - @AWD Projects</p>
+    </div>
+</div>
+<!------------js for toglle menu-------------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight ="0px";
+        }
+    }
+</script>
+
+</body>
+</html>
